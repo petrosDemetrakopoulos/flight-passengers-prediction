@@ -44,6 +44,8 @@ From the features that the dataset originally contained, we extracted the follow
 * days_to_nye, the number of days between New year's Eve and the flight
 * days_to_ind,  the number of days between Independence Day and the flight
 
+We used one-hot-encoding to represent the feature values as we observed that this method helped the prediction results.
+
 # Feature importance
 
 In the following graph feature importance for Random Forest Classifier is presented
