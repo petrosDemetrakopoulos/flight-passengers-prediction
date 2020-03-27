@@ -30,3 +30,30 @@ Each line contains a 'flight' that has the following features:
 Training set also contains 'PAX' variable as we mentioned above which is strongly related to the number of passengers a flight is carrying. This variable can have 8 discrete values (0 to 7).
 
 `PAX` is the variable we need to predict in the test set.
+
+# Feature extraction
+From the features that the dataset originally contained, we extracted the following derivative features that helped out model achieve much better results:
+
+* year
+* month
+* weekday
+* week, the number of the week the flight is happening
+* weekend, a flag indicating if the flight is happening during a weekend
+* route, a variable indicating which 'route' a flight is servicing. A 'route' is a distinct set of Departure and Arrival airports, i.e LAX - JFK is a route.
+* distance, the distance in KM between the Departure and Arrival airports
+* days_to_nye, the number of days between New year's Eve and the flight
+* days_to_ind,  the number of days between Independence Day and the flight
+
+# The model
+
+In technical terms, we used scikitlearn framework to develop our model.
+It is an ensemble model which contains the following classifiers:
+
+1. A random forest classifier
+2. A gradient bosting classifier
+3. A bagging classifier made out of Decision Tree Classifiers
+4. An XGB Classifier
+5. An AdaBoost Classifier.
+
+The results from the classifiers mentioned above are finally merged with a Voting Classifier that uses a soft voting policy.
+
