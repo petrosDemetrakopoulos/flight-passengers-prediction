@@ -50,7 +50,7 @@ In the following graph feature importance for Random Forest Classifier is presen
 ![Feature importance RF](plots/fi_rf.png?raw=true "Feature importance RF")
 
 In the following graph feature importance for XGB Classifier is presented
-![Feature importance XGB](plots/fi_XGB.png?raw=true "Feature importance XGB")
+![Feature importance XGB](plots/fi_xgb.png?raw=true "Feature importance XGB")
 
 # The model
 
