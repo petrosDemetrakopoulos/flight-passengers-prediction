@@ -44,6 +44,14 @@ From the features that the dataset originally contained, we extracted the follow
 * days_to_nye, the number of days between New year's Eve and the flight
 * days_to_ind,  the number of days between Independence Day and the flight
 
+# Feature importance
+
+In the following graph feature importance for Random Forest Classifier is presented
+![Feature importance RF](plots/fi_rf.png?raw=true "Feature importance RF")
+
+In the following graph feature importance for XGB Classifier is presented
+![Feature importance XGB](plots/fi_XGB.png?raw=true "Feature importance XGB")
+
 # The model
 
 In technical terms, we used scikitlearn framework to develop our model.
