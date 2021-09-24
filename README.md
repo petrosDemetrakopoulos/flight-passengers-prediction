@@ -1,11 +1,11 @@
 # INF131: The case of flight passengers prediction
-Build a classifier to predict number of passengers in flights
+A machine learning  model (classifier) that predicts number of passengers in flights.
 
 # Team members
 
-Petros Demetrakopoulos 
-Stavros Markopoulos
-Nikos Kavalegas
+Petros Demetrakopoulos ,
+Stavros Markopoulos,
+Nikos Kavalegas,
 
 # Project description 
 A supervised learning problem given as a project in the "Data Mining in Dtabases and World Wide Web" course in Computer Science Department of AUEB. It is a classification problem that asks to determine the 'PAX' variable (that can get 8 discrete values) for a set of flights that happened in U.S.A. Each flight contains some features (Arrival / Departure airport, date etc.) and for some flights 'PAX' variable is already determined (so we use them as our training dataset). 
