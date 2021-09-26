@@ -32,7 +32,7 @@ Training set also contains 'PAX' variable as we mentioned above which is strongl
 `PAX` is the variable we need to predict in the test set.
 
 # Feature extraction
-From the features that the dataset originally contained, we extracted the following derivative features that helped out model achieve much better results:
+From the features that the dataset originally contained, we extracted the following derivative features that helped the model achieve much better results:
 
 * year
 * month
