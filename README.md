@@ -67,5 +67,5 @@ It is an ensemble model which contains the following classifiers:
 
 The results from the classifiers mentioned above are finally merged with a Voting Classifier that uses a soft voting policy.
 
-Note: Due to the really small amount of data (just 8.900 training records) we decided **not to use neural networks** for this problem because they need more data to work correctly and provide reliable results.
+Note: Due to the small amount of data (just 8.900 training records) we decided **not to use neural networks** for the final solution we submitted as the results we got were suboptimal. They just need more data to work correctly and provide reliable results.
 
